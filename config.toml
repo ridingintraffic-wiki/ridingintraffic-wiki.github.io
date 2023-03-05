@@ -26,4 +26,5 @@ enableRobotsTXT = true
 
 [params]
   geekdocLogo = "traffic.png"
-  geekdocMenuBundle = true
+  geekdocToC = 5
+  geekdocTagsToMenu = true

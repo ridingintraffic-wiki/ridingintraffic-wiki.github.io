@@ -1,0 +1,17 @@
+---
+main:
+  - name: life
+    ref: "/life/_index.md"
+    icon: ""
+    sub:
+      - name: food
+        ref: "/life/food"
+  - name: tech
+    ref: "/tech/_index.md"
+    sub:
+      - name: 3d printing
+        ref: "/tech/3d printing"
+      - name: keyboards
+        ref: "/tech/keyboards"
+        # Anchor to add to the entry. This example will result in `/level-2/level-2-2/#anchor`
+        anchor: anchor
