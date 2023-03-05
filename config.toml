@@ -1,4 +1,4 @@
-baseURL = "http://ridingintraffic-wiki.github.io"
+baseURL = "https://ridingintraffic-wiki.github.io"
 title = "traffic-wiki"
 theme = "hugo-geekdoc"
 
