@@ -2,7 +2,7 @@
 title: "bl touch printer gcode"
 date: 2023-03-04
 ---
-# Marlin gcode ender3
+## Marlin gcode ender3
 If you wanted to run bltouch and do a bed level mesh every print  this is one way that you could do it.  
 
 ```
