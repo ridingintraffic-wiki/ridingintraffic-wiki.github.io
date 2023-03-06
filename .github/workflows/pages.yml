@@ -29,7 +29,7 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
-    if: ${{ GITHUB_ACTOR == 'ridingintraffic-wiki' }}
+    if: ${{ github.actor == 'ridingintraffic-wiki' }}
     env:
       HUGO_VERSION: 0.99.0
     steps:
@@ -62,7 +62,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    if: ${{ GITHUB_ACTOR == 'ridingintraffic-wiki' }}
+    if: ${{ github.actor == 'ridingintraffic-wiki' }}
     needs: build
     steps:
       - name: Deploy to GitHub Pages
