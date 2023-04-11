@@ -1,6 +1,7 @@
 ---
 title: "aws cli resource commands"
 date: 2023-04-11
+categories: [ devops_sre ]
 ---
 ## aws cli resource commands  
 sometimes you just need to have things crated and done in the cli.

@@ -1,6 +1,7 @@
 ---
 title: "git repo mirror via github actions"
 date: 2023-03-06
+categories: [ devops_sre ]
 ---
 ## git repo mirror  
 I needed a way to mirror a repo so that every time i pushed a new commit to one, it would go to the other.  Pretty simple and straight forward. A little google later and I have a github action that will do it for me and then ignore the job once it lands.  Otherwise the mirror workflow firees on the destination again.   
