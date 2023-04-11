@@ -36,6 +36,10 @@ aws lambda add-permission \
     --statement-id sns \
     --principal sns.amazonaws.com
 ```
+## directly invoke lambda
+```
+aws lambda invoke --function-name arn:aws:lambda:us-east-1:000000000000:function:test-lambda --payload '{"test":"test"}' response.json
+```
 
 ## delete lambda
 ```
