@@ -1,3 +1,9 @@
+---
+title: "localstack"
+date: 2023-04-11
+categories: [ devops-sre ]
+---
+
 ## lets spin up localstack
 
 ```
@@ -42,4 +48,4 @@ networks:
     external: false
     driver: bridge
     name: localstack
-    ```
+    ``` 
