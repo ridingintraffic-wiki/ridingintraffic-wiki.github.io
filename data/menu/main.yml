@@ -13,6 +13,6 @@ main:
         ref: "/tech/3d printing"
       - name: keyboards
         ref: "/tech/keyboards"
-      - name: devops_sre
-        ref: "/tech/devops_sre"
+      - name: devops-sre
+        ref: "/tech/devops-sre"
         # Anchor to add to the entry. This example will result in `/level-2/level-2-2/#anchor`
