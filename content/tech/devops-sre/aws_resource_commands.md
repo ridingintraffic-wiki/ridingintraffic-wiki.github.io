@@ -50,7 +50,12 @@ aws lambda invoke --function-name arn:aws:lambda:us-east-1:000000000000:function
 ```
 aws lambda delete-function --function-name test-lambda
 ```
+## updating an existing lambda 
+```
+aws \
+lambda update-function-code --function-name test-lambda --image-uri 11111111111.dkr.ecr.us-east-1.amazonaws.com/somerepo:latest 
 
+```
 ## create sns topic  
 ``` 
 aws sns create-topic \
