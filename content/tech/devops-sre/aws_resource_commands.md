@@ -14,6 +14,10 @@ aws \
    --comparison-operator GreaterThanThreshold  --dimensions "Name=InstanceId,Value=i-12345678" --evaluation-periods 1 \
    --alarm-actions arn:aws:sns:us-east-1:546781284141:alerting --unit Percent \
    --tags Key=routing,Value=Platform Key=alertLevel,Value=INFO Key=slack_channel,Value=alerts-info Key=alarmType,Value=test
+``` 
+
+## trigger cloudwatch alarm
+aws cloudwatch set-alarm-state --alarm-name "test-alarm" --state-value ALARM --state-reason "testing purposes" 
 ```
 
 ## create lambda via docker image  
@@ -61,4 +65,8 @@ aws \
 sns add-permission --label lambda-access --aws-account-id 000000000000 \
 --topic-arn arn:aws:sns:us-east-1:000000000000:testTopic \
 --action-name Subscribe ListSubscriptionsByTopic
+```
+##  write to sns topic
+```
+aws events put-events --entries file://root_login.json 
 ```
