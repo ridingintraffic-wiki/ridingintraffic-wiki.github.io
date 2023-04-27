@@ -11,7 +11,8 @@ message={"detail":{"operation":"create"}}
 ```
 then you can access it like this 
 ```
-message.get('detail', {}).get('operation')
+>>> message.get('detail', {}).get('operation')
+create
 ```
 then if you access something that doesn't exist   you will get a nice `None` back 
 ```
