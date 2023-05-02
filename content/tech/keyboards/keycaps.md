@@ -14,4 +14,4 @@ I have forked some to make sure i can at least hold on to them
 
 [https://github.com/sporkus/PseudoMakeMeKeyCapProfiles](https://github.com/sporkus/PseudoMakeMeKeyCapProfiles)  
 [https://github.com/pseudoku/PseudoMakeMeKeyCapProfiles](https://github.com/pseudoku/PseudoMakeMeKeyCapProfiles)  
-
+[https://github.com/madebyperce/shelby-min-mx-keycaps](https://github.com/madebyperce/shelby-min-mx-keycaps)  
