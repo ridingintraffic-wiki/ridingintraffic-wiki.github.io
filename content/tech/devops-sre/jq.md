@@ -10,5 +10,5 @@ taking a terraform plan and outputting only the things that will change on the p
 this is useful when you need to do some targeted deploys.  
 ```
 terraform plan -input=false -compact-warnings -out plan.tfplan;  
-terraform show -no-color -json plan.tfplan | jq -r '.resource_changes[] | select(.change.actions[0]=="update" or .change.actions[0]=="create" or .change.actions[0]=="create") | .address
+terraform show -no-color -json plan.tfplan | jq -r '.resource_changes[] | select(.change.actions[0]=="update" or .change.actions[0]=="create" or .change.actions[0]=="create") | .address'
 ```
