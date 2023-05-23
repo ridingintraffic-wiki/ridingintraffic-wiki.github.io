@@ -24,6 +24,10 @@ hurray safe handling hey
 ## base64 user auth in requests  
 use the base64 for the first header and then reuse the bearer token that you get back.
 ``` 
+import requests
+import json
+from requests.auth import HTTPBasicAuth
+
     headers = {
         'Content-Type': 'application/json',
         'Accept': 'application/json'
