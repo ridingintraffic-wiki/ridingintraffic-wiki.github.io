@@ -19,7 +19,7 @@ ripgrep is a line-oriented search tool that recursively searches the current dir
 | rg --count	| Show the number of matching lines in a file
 | rg --count-matches	| Show the number of matchings in a file
 | rg neovim --stats	|Show the searching stat (how many matches, how many files searched etc.)
-
+| rg --files-with-matches "" -g "asg.tf" | search for files named, and only return the names 
 
 How to exclude directories
 
